@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 60%;
+    margin: auto;
+}
+li{
+    list-style: none;
+    border: 1px solid black;
+    margin: 10px 0;
+    font-size: 1.25rem;
+    padding: .3125rem;
+    display: flex;
+    justify-content: space-between;
+}
+.add-container{
+    display: flex;
+    justify-content: space-between;
+}
+.add-container input{
+    flex-grow: 1;
+}
+.add-container span{
+    font-size: 1.25rem;
+    margin-left: 1.25rem;
+}
+.ms_text_through{
+    text-decoration: line-through;
+}
