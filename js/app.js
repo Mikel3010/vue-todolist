@@ -27,5 +27,11 @@ createApp({
                 }, 
             ]
         }
+    },
+    methods:{
+        deleteList(list) {
+            this.lists.splice(this.lists.indexOf(list), 1);
+        
+        },
     }
 }).mount('#app');
